@@ -1,0 +1,7 @@
+Flexbox or Grid?
+
+1. Flexbox is for one dimensioanl layouts | Grid is for two dimensioanl layouts
+
+2. FLexbox is for components | Grid is for layouts
+
+3. Flexbox for content-first | Grid for layout-first

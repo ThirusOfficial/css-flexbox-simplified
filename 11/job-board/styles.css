@@ -1,0 +1,113 @@
+
+a {
+   text-decoration: none;
+   color: #38bee4;
+}
+ul {
+   list-style-type: none;
+}
+body {
+   max-width: 1200px;
+   min-width: 350px;
+   margin: auto;
+   padding: 1.5rem;
+   background-color: #2d3644;
+}
+h1 {
+   font-size: 1.5rem;
+   line-height: 1.2;
+   font-weight: bold;
+}
+h2 {
+   color: #38bee4;
+}
+.main,
+.sidebar {
+   padding: 1.4rem;
+   background-color: #1e2632;
+   border-radius: 0.5rem;
+}
+.title-div img {
+   width: 4rem;
+   height: 4rem;
+   border-radius: 0.5rem;
+}
+.features:not(:last-child) {
+   padding-bottom: 2rem;
+}
+.features h2 {
+   font-size: 1.1rem;
+   letter-spacing: 0.02rem;
+}
+.brief p {
+   padding: 0.8rem 0 0;
+}
+.activity {
+   margin-top: 1rem;
+}
+.activity li {
+   font-size: 0.9rem;
+}
+span.label {
+   color: #78879d;
+}
+.btn-link {
+   display: inline-block;
+   padding: 0.6rem 1rem;
+   background-color: #2c9ab9;
+   color: white;
+   border-radius: 0.3rem;
+}
+.sidebar nav {
+   margin-bottom: 1rem;
+}
+.sidebar nav ul {
+   padding: 0.4rem;
+   background-color: #2a3850;
+   border-radius: 0.3rem;
+}
+.sidebar nav ul li {
+   padding: 0.4rem 0.8rem;
+   border-radius: 0.3rem;
+   cursor: pointer;
+   text-align: center;
+}
+.sidebar nav ul li:hover {
+   background-color: #3e516e;
+}
+.sidebar nav ul li:first-child {
+   background-color: #3e516e;
+   color: white;
+}
+.sidebar-card {
+   padding: 1rem 0;
+   border-bottom: solid 1px #444444;
+}
+.sidebar-card header img {
+   width: 3.4rem;
+   height: 3.4rem;
+   border-radius: 0.5rem;
+}
+.sidebar header a h3 {
+   color: #ddd;
+   line-height: 1.7;
+   font-size: 1rem;
+   font-weight: normal;
+}
+.sidebar-card header a h3:hover {
+   color: #38bee4;
+}
+.sidebar-card header > img {
+   width: 1.2rem;
+   height: 1.2rem;
+}
+.sidebar-card p {
+   color: #bbb;
+   font-size: 0.9rem;
+   padding-top: 0.5rem;
+}
+.sidebar-card footer {
+   margin-top: 0.5rem;
+   font-size: 0.9rem;
+   color: #bbb;
+}

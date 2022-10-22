@@ -1,0 +1,187 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap");
+
+
+/* General Styles */
+
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+body {
+   font-family: "Inter", sans-serif;
+   color: #ddd;
+   font-size: 0.9rem;
+   line-height: 1.5;
+   background-color: #434753;
+   padding-top: 0.01em;
+}
+h1, h2, h3, h4, h5 {
+   font-weight: normal;
+   margin: 0;
+   padding: 0;
+}
+a {
+   text-decoration: none;
+}
+
+/* Episode 3 & 4 - Customers Logos  */
+
+.customers p {
+   width: 13rem;
+   line-height: 1.2;
+}
+.customers span {
+   font-weight: bold;
+   font-size: 1.2rem;
+   color: white;
+}
+.customers img {
+   max-width: 150px;
+   max-height: 50px;
+}
+
+/* Episode 4 - Login Screen  */
+
+.login .btn {
+   text-decoration: none;
+   text-align: center;
+   padding: 0.75rem 1.5rem;
+   font-size: 0.9rem;
+   border-radius: 0.5rem;
+   border: solid 1px #38bdf8;
+}
+.login .btn-full {
+   background-color: #38bdf8;
+   color: black;
+}
+.login .btn-outline {
+   color: white;
+}
+
+/* Episode 5 - Blog Post Display  */
+
+.post img {
+  max-width: 100%;
+  border-radius: 0.25rem;
+}
+.post span {
+   font-size: 0.8rem;
+   color: #e19a25;
+}
+.post h1 {
+  font-size: 1.2rem;
+  font-weight: bold;
+  line-height: 1.2;
+}
+.post p {
+  font-size: 0.9rem;
+  color: #ddd;
+}
+.post a {
+  padding: 0.5rem 1rem;
+  border-radius: 0.25rem;
+  background-color: #e19a25;
+  color: #222222;
+  text-decoration: none;
+  font-size: 0.8rem;
+  text-align: center;
+}
+
+/* Episode 5 - Movie Booking  */
+
+.movie img {
+   width: 4.2rem;
+   height: 4.2rem;
+   object-fit: cover;
+}
+.movie h1 {
+   color: #22d3ee;
+   font-size: 1.2rem;
+}
+.movie a {
+   padding: 0.5rem 1rem;
+   border-radius: 0.25rem;
+   background-color: #06b6d4;
+   color: white;
+   text-decoration: none;
+   font-size: 0.8rem;
+   text-align: center;
+}
+
+/* Episode 6 - Pricing Plans  */
+
+.pricing span {
+   font-size: 0.9rem;
+   opacity: 0.8;
+}
+.pricing p {
+   font-size: 2.4rem;
+   font-weight: bold;
+   margin: 20px 0 0;
+}
+.pricing .plan {
+   background-color: #333333;
+   padding: 1.2rem 1.5rem;
+   border-radius: 0.5rem;
+   box-shadow: 6px 6px 50px -35px rgba(0, 0, 0, 0.75);
+}
+.pricing .plan-highlight {
+   background-color: #9d174d;
+   color: white;
+}
+
+/* Episode 7 - Navigation with Search Bar  */
+
+.search {
+   padding: 0.5rem 1.5rem;
+   border: solid 1px #3f3f46;
+   border-radius: 1.5rem;
+   background-color: #3f3f46;
+   color: white;
+   font-size: 0.8rem;
+}
+.search:focus {
+   outline: none;
+   border: solid 1px #777777;
+}
+
+/* Episode 9 - Sticky footer  */
+
+.sticky-footer header,
+.sticky-footer footer {
+   padding: 1rem 6rem;
+   background-color: #0f172a;
+}
+.sticky-footer section {
+   padding: 2rem 6rem;
+   max-width: 56rem;
+}
+.sticky-footer h1,
+.sticky-footer h2 {
+   color: #87e2d4;
+   margin-bottom: 0.5rem;
+}
+.sticky-footer footer {
+   font-size: 0.9rem;
+}
+
+/* Episode 10 - Tags  */
+
+.tags label {
+   margin: 0.5rem 0.25rem;
+   padding: 0.5rem 1.2rem;
+   background-color: #32343c;
+   border-radius: 1.5rem;
+}
+.tags i {
+   font-size: 1.5rem;
+   color: #545662;
+}
+.tags label:hover {
+   cursor: pointer;
+}
+.tags label:hover i {
+   color: #2f5f5b;
+}
