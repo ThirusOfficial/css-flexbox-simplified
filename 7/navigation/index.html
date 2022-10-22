@@ -14,9 +14,29 @@
         max-width: 64rem;
         margin: auto;
         padding: 1.5rem;
+
+        display: flex;
+        flex-wrap: wrap;
+        gap: 1rem;
+        align-items: center;
+        justify-content: space-between;
       }
       a {
         color: white;
+      }
+      input {
+        flex: 100%;
+      }
+      @media screen and (min-width: 630px) {
+        nav {
+          flex-wrap: nowrap;
+        }
+        input {
+          flex: auto;
+        }
+        a {
+          order: 1;
+        }
       }
     </style>
   </head>

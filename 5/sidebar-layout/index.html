@@ -7,6 +7,9 @@
     <title>Sidebar Layout</title>
     <link rel="stylesheet" href="/base.css" />
     <style>
+      body {
+        display: flex;
+      }
       nav,
       section {
         min-height: 100vh;
@@ -16,6 +19,9 @@
       nav {
         width: 16rem;
         border-right: solid 1px #374151;
+      }
+      section {
+        flex-grow: 1;
       }
       ul {
         list-style-type: none;

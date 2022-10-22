@@ -7,7 +7,69 @@
     <title>Job Board</title>
     <link rel="stylesheet" href="/base.css" />
     <link rel="stylesheet" href="styles.css" />
-    <style></style>
+    <style>
+      .container {
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+      }
+      @media screen and (min-width: 900px) {
+        .container {
+          flex-direction: row;
+          align-items: flex-start;
+        }
+        .main {
+          flex: 3;
+        }
+        .sidebar {
+          flex: 2;
+        }
+      }
+      .title-div {
+        display: flex;
+        align-items: center;
+        gap: 1rem;
+      }
+      .sidebar nav ul {
+        display: flex;
+      }
+      .sidebar nav ul li {
+        flex: 1;
+      }
+      .sidebar-card header {
+        display: flex;
+        gap: 0.8rem;
+      }
+      .sidebar-card header img {
+        margin-left: auto;
+      }
+      .sidebar-card footer {
+        display: flex;
+        gap: 1rem;
+      }
+      .sidebar-card footer a {
+        margin-right: auto;
+      }
+      .activity {
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+      }
+      .activity li {
+        display: flex;
+        justify-content: space-between;
+      }
+      @media screen and (min-width: 600px) {
+        .activity {
+          flex-direction: row;
+          flex-wrap: wrap;
+        }
+        .activity li {
+          flex-direction: column-reverse;
+          flex-basis: 12rem;
+        }
+      }
+    </style>
   </head>
   <body>
     <div class="container">

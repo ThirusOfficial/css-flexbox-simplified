@@ -9,13 +9,40 @@
     <style>
       section {
         margin: 2rem auto;
+        padding: 2rem;
         max-width: 56rem;
+      }
 
+      /* section {
         display: flex;
+        flex-direction: column;
+        gap: 1.5rem;
+      }
+      @media screen and (min-width: 767px) {
+        section {
+          flex-direction: row;
+        }
+        .plan {
+          flex: 1;
+        }
+      } */
+
+      section {
+        display: grid;
         gap: 1.5rem;
       }
       .plan {
-        flex: 1;
+        display: flex;
+        justify-content: space-between;
+      }
+      .plan p {
+        font-size: 1.5rem;
+        margin: 0;
+      }
+      @media screen and (min-width: 767px) {
+        section {
+          grid-template-columns: repeat(3, 1fr);
+        }
       }
     </style>
   </head>
